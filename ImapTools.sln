@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImapGet", "ImapGet\ImapGet.csproj", "{F12A8634-4B93-4940-9FFD-2F013A39671D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImapMarkDrafts", "ImapMarkDrafts\ImapMarkDrafts.csproj", "{7E2B3905-45E8-4EEF-AE90-CFE41A513BA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F12A8634-4B93-4940-9FFD-2F013A39671D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F12A8634-4B93-4940-9FFD-2F013A39671D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F12A8634-4B93-4940-9FFD-2F013A39671D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F12A8634-4B93-4940-9FFD-2F013A39671D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E2B3905-45E8-4EEF-AE90-CFE41A513BA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E2B3905-45E8-4EEF-AE90-CFE41A513BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E2B3905-45E8-4EEF-AE90-CFE41A513BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E2B3905-45E8-4EEF-AE90-CFE41A513BA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
