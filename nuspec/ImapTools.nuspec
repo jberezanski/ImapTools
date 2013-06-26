@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ImapTools</id>
+    <title>ImapTools</title>
+    <version>$version$</version>
+    <authors>Jakub Bereżański</authors>
+    <owners>Jakub Bereżański</owners>
+    <summary>ImapTools</summary>
+    <description>ImapTools</description>
+    <projectUrl>https://github.com/jberezanski/ImapTools</projectUrl>
+    <tags>ImapTools imap</tags>
+    <copyright></copyright>
+    <!--<licenseUrl>__REPLACE__</licenseUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://raw.github.com/__CHOCO_PKG_OWNER_REPO__/master/ImapTools/ImapTools.gif</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <!--<file src="tools\**" target="tools" />-->
+    <!--<file src="content\**" target="content" />-->
+    <file src="..\ImapGet\bin\Release\ImapGet.exe" target="tools" />
+    <file src="..\ImapGet\bin\Release\CommandLine.dll" target="tools" />
+    <file src="..\ImapGet\bin\Release\S22.Imap.dll" target="tools" />
+    <file src="..\ImapMarkDrafts\bin\Release\ImapMarkDrafts.exe" target="tools" />
+  </files>
+</package>
